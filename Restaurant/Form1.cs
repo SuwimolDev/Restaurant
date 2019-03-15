@@ -155,7 +155,7 @@ namespace Restaurant
                             var food = dgv_Detailfood.Rows[x].Cells["MenuId1"].Value.ToString();
                             if (food == Menu)
                             {
-                                throw new Exception("รายการอาหารซ้ำ");
+                                throw new Exception("รายการอาหารซ้ำ1");
                             }
                         }
 
